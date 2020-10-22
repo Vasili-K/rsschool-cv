@@ -1,0 +1,59 @@
+
+main {  
+    font-size: large;
+   max-width: 1024px;
+    text-align: justify;
+    margin: 0 auto;
+}
+#upp {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+h1 {
+    color: blue;
+    font-style: italic;
+    }
+h3{
+    color: brown;
+}
+
+#obg {
+    background-color: rgb(95, 149, 199);
+    font-size: 18px;
+}
+ul:hover {
+       color: red;
+}
+
+#workstudy {
+    background-color: thistle;
+}
+
+#skills {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+#contact {
+    align-self: center;
+}
+#other {
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.text {
+    background-color: burlywood;
+}
+footer {
+    width: 1024px;
+     margin: 0 auto;  
+}
+@media (max-width: 650px) {
+#upp {
+    display: block;
+   }
+}
